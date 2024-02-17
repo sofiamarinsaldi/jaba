@@ -2,13 +2,15 @@
  * Introduction to Java base concepts
  * 
  * https://github.com/egalli64/jaba
+ * 
+ * Exercises on looping
  */
 package com.example.jaba.m4.s7.ex;
 
 /**
  * Exercise on loop with while / do-while
  */
-public class NatualSum {
+public class FNaturalSum {
     public static void main(String[] args) {
         // The x value should be a natural number: 1, 2, ...
         int x = 64;

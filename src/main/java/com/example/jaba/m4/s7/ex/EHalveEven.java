@@ -2,13 +2,12 @@
  * Introduction to Java base concepts
  * 
  * https://github.com/egalli64/jaba
+ * 
+ * Exercises on looping
  */
 package com.example.jaba.m4.s7.ex;
 
-/**
- * Exercise on looping with while / do-while
- */
-public class HalveEven {
+public class EHalveEven {
     public static void main(String[] args) {
         int x = 64;
         System.out.println("The initial value is " + x);

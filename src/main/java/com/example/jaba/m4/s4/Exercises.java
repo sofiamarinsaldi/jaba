@@ -23,6 +23,5 @@ public class Exercises {
         System.out.println("The [sum/subtraction/division/product] of a and b is ... ");
 
         // TODO: same, but use an enum for the operation instead of a char
-
     }
 }

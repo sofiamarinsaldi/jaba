@@ -22,7 +22,7 @@ public class Exercises {
         // TODO: compare a, b, and c to print ONE of the two alternative strings:
         System.out.println("[The values are not repeated / A value is repeated ... ]");
 
-        // TODO: compare a, b, and c to print ONE of the three alternative strings:
+        // TODO: compare a and b to print ONE of the three alternative strings:
         System.out.println("The value in a is [greater than / less than / equal to] b");
     }
 }
