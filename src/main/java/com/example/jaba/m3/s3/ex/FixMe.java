@@ -3,12 +3,12 @@
  * 
  * https://github.com/egalli64/jaba
  */
-package com.example.jaba.m3.s3;
+package com.example.jaba.m3.s3.ex;
 
 /**
  * Exercise on associativity and precedence
  */
-public class Exercise {
+public class FixMe {
     /**
      * Fix the execution order to get the expected result
      * 
