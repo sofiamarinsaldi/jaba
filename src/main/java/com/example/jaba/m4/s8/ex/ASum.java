@@ -3,13 +3,22 @@
  * 
  * https://github.com/egalli64/jaba
  * 
- * Exercises on looping
+ * Exercises on for loop
  */
 package com.example.jaba.m4.s8.ex;
 
 import java.util.Arrays;
 
+/**
+ * Operate on each element in a sequence with a for loop
+ */
 public class ASum {
+    /**
+     * The square operation should be applied on each element in the sequence and
+     * its result would concur to the result
+     * 
+     * @param args not used
+     */
     public static void main(String[] args) {
         // TODO: given a sequence of integers, generate the sum of each squared element
         int[] values = { 1, 2, 3, 4, 5 };
