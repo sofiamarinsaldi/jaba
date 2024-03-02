@@ -3,25 +3,28 @@
  * 
  * https://github.com/egalli64/jaba
  */
-package com.example.jaba.m4.s4;
+package com.example.jaba.m4.s4.ex;
 
 /**
- * Branch in code execution switching on a condition
+ * Switch on enum exercise
  */
-public class Exercises {
+public class EnumCalculator {
+    /**
+     * Switch on an enum
+     * 
+     * @param args not used
+     */
     public static void main(String[] args) {
         int a = 42;
         int b = 7;
 
-        char op = '+';
+        Operation op = Operation.ADD;
 
-        if (op == '+') {
+        if (op == Operation.ADD) {
             System.out.println("The sum of a and b is " + (a + b));
         }
 
-        // TODO: switch on op for '+', '-', '/', '*' to operate on a and b
+        // TODO: switch on op to operate on a and b with the basic arithmetic operations
         System.out.println("The [sum/subtraction/division/product] of a and b is ... ");
-
-        // TODO: same, but use an enum for the operation instead of a char
     }
 }
