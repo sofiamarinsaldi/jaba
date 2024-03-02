@@ -2,6 +2,8 @@
  * Introduction to Java base concepts
  * 
  * https://github.com/egalli64/jaba
+ * 
+ * Exercise on StringBuilder methods
  */
 package com.example.jaba.m5.s06.ex;
 
