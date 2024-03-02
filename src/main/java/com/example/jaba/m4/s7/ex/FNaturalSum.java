@@ -3,23 +3,28 @@
  * 
  * https://github.com/egalli64/jaba
  * 
- * Exercises on looping
+ * Exercises on looping with while and do-while
  */
 package com.example.jaba.m4.s7.ex;
 
 /**
- * Exercise on loop with while / do-while
+ * Natural sum
  */
 public class FNaturalSum {
+    /**
+     * Generate the natural sequence up to n (included), sum up all its elements
+     * 
+     * @param args not used
+     */
     public static void main(String[] args) {
-        // The x value should be a natural number: 1, 2, ...
-        int x = 64;
+        // The n value should be a natural number: 1, 2, ...
+        int n = 64;
 
-        System.out.println("The initial value is " + x);
+        System.out.println("The initial value is " + n);
 
         // TODO: Calculate and print the sum of 1 + 2 + ... + x
 
         // To check it, let's use the Gauss summation formula
-        System.out.println("The result should be " + (x * (x + 1) / 2));
+        System.out.println("The result should be " + (n * (n + 1) / 2));
     }
 }

@@ -3,11 +3,19 @@
  * 
  * https://github.com/egalli64/jaba
  * 
- * Exercises on looping
+ * Exercises on looping with while and do-while
  */
 package com.example.jaba.m4.s7.ex;
 
+/**
+ * Calculate n! iteratively
+ */
 public class CFactorial {
+    /**
+     * n! is n * (n - 1) * ... * 2
+     * 
+     * @param args not used
+     */
     public static void main(String[] args) {
         final int x = 5;
         System.out.println("x is " + x);
