@@ -3,12 +3,17 @@
  * 
  * https://github.com/egalli64/jaba
  */
-package com.example.jaba.m4.s2;
+package com.example.jaba.m4.s2.ex;
 
 /**
  * Branch in code execution by checking conditions
  */
-public class Exercises {
+public class CompareIntegers {
+    /**
+     * Compare the provided values and print meaningful messages as suggested
+     * 
+     * @param args not used
+     */
     public static void main(String[] args) {
         int a = 23;
         int b = 42;
