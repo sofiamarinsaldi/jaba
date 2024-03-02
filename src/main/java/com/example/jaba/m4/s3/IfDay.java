@@ -46,7 +46,7 @@ public class IfDay {
      * @return a WeekDay
      * @see WeekDay enumerator for week days
      */
-    private static WeekDay aDay() {
+    public static WeekDay aDay() {
         WeekDay[] days = WeekDay.values();
         return days[(int) (Math.random() * days.length)];
     }
