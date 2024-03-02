@@ -14,8 +14,7 @@ public class StaticFormat {
     public static void main(String[] args) {
         int anInt = 42;
         double aDouble = 3.14;
-        System.out.println("The input is: " + anInt + " and " + aDouble);
-        System.out.println("The expected output is something like \"42 and 3,14\"");
+        System.out.println("The values are " + anInt + " and " + aDouble);
 
         // TODO: generate a new string containing the integer and double defined above
         // then print it
