@@ -15,6 +15,10 @@ public class Widening {
      * @param args not used
      */
     public static void main(String[] args) {
+        // Primitive cast is only for numeric types: Cannot cast from byte to boolean
+        // boolean flag = true;
+        // byte number = (byte) flag;
+
         byte aByte = 70;
         short aShort = aByte;
         int anInt = aShort;

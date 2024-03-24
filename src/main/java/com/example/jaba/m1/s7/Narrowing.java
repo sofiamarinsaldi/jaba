@@ -36,6 +36,9 @@ public class Narrowing {
         // 1 byte: [00101010]
         byte aByte = (byte) aShort;
 
+        // Primitive cast is only for numeric types: Cannot cast from byte to boolean
+        // boolean flag = (boolean) aByte;
+
         System.out.println(aByte);
 
         // 2 bytes: [0000 0000][0010 1010]
