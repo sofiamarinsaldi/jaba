@@ -3,7 +3,7 @@
  * 
  * https://github.com/egalli64/jaba
  */
-package com.example.jaba.m3.s5;
+package com.example.jaba.m4.s5;
 
 /**
  * Comparison operators on char

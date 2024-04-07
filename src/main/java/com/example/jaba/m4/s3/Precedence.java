@@ -3,7 +3,7 @@
  * 
  * https://github.com/egalli64/jaba
  */
-package com.example.jaba.m3.s3;
+package com.example.jaba.m4.s3;
 
 /**
  * Associativity and precedence
