@@ -3,7 +3,7 @@
  * 
  * https://github.com/egalli64/jaba
  */
-package com.example.jaba.m2.s2;
+package com.example.jaba.m3.s2;
 
 /**
  * Defining and using an array with the standard initialization

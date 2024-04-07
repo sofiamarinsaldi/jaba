@@ -3,7 +3,7 @@
  * 
  * https://github.com/egalli64/jaba
  */
-package com.example.jaba.m2.s5;
+package com.example.jaba.m3.s5;
 
 /**
  * Introduction to StringBuilder

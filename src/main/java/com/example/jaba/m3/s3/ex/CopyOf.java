@@ -3,7 +3,7 @@
  * 
  * https://github.com/egalli64/jaba
  */
-package com.example.jaba.m2.s3.ex;
+package com.example.jaba.m3.s3.ex;
 
 import java.util.Arrays;
 

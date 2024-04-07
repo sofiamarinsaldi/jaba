@@ -3,7 +3,7 @@
  * 
  * https://github.com/egalli64/jaba
  */
-package com.example.jaba.m2.s6;
+package com.example.jaba.m3.s6;
 
 /**
  * Introduction to String and text block

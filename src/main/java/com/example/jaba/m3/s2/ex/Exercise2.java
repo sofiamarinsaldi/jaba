@@ -3,7 +3,7 @@
  * 
  * https://github.com/egalli64/jaba
  */
-package com.example.jaba.m2.s2.ex;
+package com.example.jaba.m3.s2.ex;
 
 /**
  * Another very simple exercise on array
