@@ -5,8 +5,8 @@
  */
 package com.example.jaba.m1.s2;
 
-import com.example.jaba.m1.s5.Variable;
-import com.example.jaba.m1.s6.*;
+import com.example.jaba.m1.s4.Swingy;
+import com.example.jaba.m2.s2.*;
 
 /**
  * A package-private class, it could be seen only from the current package
@@ -14,19 +14,21 @@ import com.example.jaba.m1.s6.*;
 class UsingImport {
     /**
      * Print the name of:
-     * 
-     * <li>The current class
-     * <li>Another class in the same package (does not require import)
-     * <li>A class in another package - imported explicitly
-     * <li>A class in another package - imported implicitly with all its package
+     * <ol>
+     * <li>The current class</li>
+     * <li>Another class in the same package (does not require import)</li>
+     * <li>A class in another package - imported explicitly</li>
+     * <li>A class in another package - imported implicitly with all the ones in its
+     * package</li>
+     * </ol>
      * 
      * @param args not used
      */
     public static void main(String[] args) {
         System.out.println(UsingImport.class);
         System.out.println(AnotherPackageClass.class);
-        System.out.println(Variable.class);
-        System.out.println(Primitive.class);
+        System.out.println(Swingy.class);
+        System.out.println(Types.class);
     }
 }
 
