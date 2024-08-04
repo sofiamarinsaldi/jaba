@@ -63,18 +63,5 @@ public class Arithmetic {
         // Divide by zero for real numbers leads to infinity
         System.out.print("3.0 / 0 = ");
         System.out.println(c / 0); // Infinity
-
-        // implicit widening -> explicit narrowing
-        System.out.println("--- adding bytes we get an int! ---");
-        byte aByte = 6;
-        byte anotherByte = 42;
-        byte resultingByte = (byte) (aByte + anotherByte);
-        System.out.println(resultingByte);
-
-        System.out.println("--- ... unless their are constants ---");
-        final byte fb1 = 6;
-        final byte fb2 = 22;
-        resultingByte = fb1 + fb2;
-        System.out.println(resultingByte);
     }
 }
