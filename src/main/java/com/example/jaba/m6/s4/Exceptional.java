@@ -12,7 +12,7 @@ package com.example.jaba.m6.s4;
  */
 public class Exceptional {
     /**
-     * When calling Exceptional::mySqrt we should remember to try-catch the call.
+     * When calling Exceptional.mySqrt() we should remember to try-catch the call.
      * Otherwise we could have an unexpected program termination.
      * 
      * @param args not used
@@ -25,7 +25,7 @@ public class Exceptional {
             double radix = mySqrt(argument);
             System.out.println("Square root is " + radix);
         } catch (IllegalArgumentException ex) {
-            System.out.println("Can't calculate the square root of " + argument);
+            System.err.println("Can't calculate the square root of " + argument);
         }
 
         // If an exception is not caught, the program ends!
@@ -34,7 +34,7 @@ public class Exceptional {
     }
 
     /**
-     * A this wrapper around Math::sqrt(). If the parameter is "not good" an
+     * A this wrapper around Math.sqrt(). If the parameter is "not good" an
      * exception is thrown.
      * 
      * @param value it should be a non-negative valid number
