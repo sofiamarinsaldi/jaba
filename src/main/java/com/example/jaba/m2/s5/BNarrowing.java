@@ -6,9 +6,9 @@
 package com.example.jaba.m2.s5;
 
 /**
- * Narrowing primitives - explicit cast is required
+ * Narrowing primitives - explicit cast _is_ required
  */
-public class Narrowing {
+public class BNarrowing {
     /**
      * Narrowing from a double down to a byte (plus cast from char to short)
      * 

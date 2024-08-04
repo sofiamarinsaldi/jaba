@@ -6,9 +6,9 @@
 package com.example.jaba.m2.s5;
 
 /**
- * Widening primitives - explicit cast is _not_ required
+ * Widening primitives - explicit cast _is not_ required
  */
-public class Widening {
+public class AWidening {
     /**
      * Widening from a byte up to a double (and char examples)
      * 
