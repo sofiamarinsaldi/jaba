@@ -15,9 +15,9 @@ public class FixMe {
      * @param args not used
      */
     public static void main(String[] args) {
-        double a = 1.0;
+        double x = 1.0;
         // TODO: use parentheses to fix the bug
-        double result = 1 / a + 1 / a + 1 / a + 1 / a;
+        double result = 1 / x + 1 / x + 1 / x + 1 / x;
         System.out.println("Actual result is: " + result);
         System.out.println("Expected result is: 0.6000000000000001");
     }
