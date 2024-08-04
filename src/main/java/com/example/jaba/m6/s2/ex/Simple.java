@@ -20,8 +20,8 @@ public class Simple {
      * @param b another value
      * @return the sum of the two input values
      */
-    int add(int a, int b) {
-        // TODO 1: complete the code
+    int add(int a, int b) { // TODO 1: is this a static method?
+        // TODO 2: complete the code
         return 0;
     }
 
@@ -32,8 +32,8 @@ public class Simple {
      * @param b another value
      * @return the product of the two input values
      */
-    int multiply(int a, int b) {
-        // TODO 2: complete the code
+    int multiply(int a, int b) { // TODO 3: is this an instance method?
+        // TODO 4: complete the code
         return 0;
     }
 }
