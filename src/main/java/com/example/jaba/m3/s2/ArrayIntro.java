@@ -10,15 +10,15 @@ package com.example.jaba.m3.s2;
  */
 public class ArrayIntro {
     public static void main(String[] args) {
-        // Array with length 12, each element is initialized to zero
-        int[] values = new int[12];
+        // Array with length 6, each element is initialized to zero
+        int[] values = new int[6];
 
         // Explicit initialization of array elements
         values[0] = 734;
         values[1] = 512;
         // ...
-        values[10] = 187;
-        values[11] = 345;
+        values[4] = 187;
+        values[5] = 345;
 
         System.out.print("First element is ");
         System.out.println(values[0]);
@@ -26,12 +26,12 @@ public class ArrayIntro {
         System.out.print("Last element is ");
         System.out.println(values[values.length - 1]);
 
-        int value = values[5];
+        int value = values[3];
         System.out.print("Value is ");
         System.out.println(value);
 
         // !!! be careful with indices !!!
-//        value = values[12]; // exception
+//        value = values[6]; // exception
 
         // unfortunately this does not work as one would expect
         // see Arrays (next slide) for solution
