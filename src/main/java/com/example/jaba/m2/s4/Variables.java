@@ -6,14 +6,11 @@
 package com.example.jaba.m2.s4;
 
 /**
- * Variables and constants
+ * Variables
  */
 public class Variables {
-    /** A class constant */
-    static final int A_CONSTANT = 12;
-
     /**
-     * Define a few variables and constants, primitive and reference, and print them
+     * Define a few variables, primitive and reference, and print them
      * 
      * @param args not used
      */
@@ -35,13 +32,5 @@ public class Variables {
 
         System.out.println(anotherReferenceVariable);
         System.out.println(anotherPrimitiveVariable);
-
-        // a local constant
-        final var anotherConstant = 21;
-        System.out.println(A_CONSTANT + anotherConstant);
-
-        // constants (i.e. final variables) can't change!
-//        A_CONSTANT = 42;
-//        anotherConstant = 18;
     }
 }
