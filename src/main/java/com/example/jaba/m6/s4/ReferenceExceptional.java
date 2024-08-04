@@ -14,7 +14,7 @@ import java.util.Objects;
  */
 public class ReferenceExceptional {
     /**
-     * When calling Exceptional::mySqrt we should remember to try-catch the call.
+     * When calling Exceptional.mySqrt() we should remember to try-catch the call.
      * Otherwise we could have an unexpected program termination.
      * 
      * @param args not used
@@ -25,7 +25,7 @@ public class ReferenceExceptional {
             double radix = mySqrt(null);
             System.out.println("Square root is " + radix);
         } catch (NullPointerException ex) {
-            System.out.println("Can't calculate the square root: " + ex.getMessage());
+            System.err.println("Can't calculate the square root: " + ex.getMessage());
         }
 
         try {
@@ -33,7 +33,7 @@ public class ReferenceExceptional {
             double radix = mySqrt(-1.0);
             System.out.println("Square root is " + radix);
         } catch (NullPointerException | IllegalArgumentException ex) {
-            System.out.println("Can't calculate the square root: " + ex.getMessage());
+            System.err.println("Can't calculate the square root: " + ex.getMessage());
         }
 
         // Uncaught exception leads to program termination
@@ -50,7 +50,7 @@ public class ReferenceExceptional {
      * @throws NullPointerException     when value is null
      */
     public static double mySqrt(Double value) {
-        Objects.requireNonNull(value, "value must not be null");
+        Objects.requireNonNull(value, "can't work on null value");
         if (value < 0 || Double.isNaN(value)) {
             throw new IllegalArgumentException(String.valueOf(value));
         }
