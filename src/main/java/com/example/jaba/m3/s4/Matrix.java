@@ -23,21 +23,20 @@ public class Matrix {
 
         // reading a value from a matrix
         int value = matrix[2][3];
+        System.out.print("The original value in the chosen matrix position is ");
+        System.out.println(value);
 
         // changing a value in a matrix
         matrix[2][3] = 93;
-
-        System.out.print("Value extracted from matrix: ");
-        System.out.println(value);
 
         // very disappointing
         System.out.print("Matrix to string: ");
         System.out.println(matrix.toString());
         // disappointing
-        System.out.print("Arrays::toString() is not enough for multidimensional arrays: ");
+        System.out.print("Using Arrays.toString() is not enough for multidimensional arrays: ");
         System.out.println(Arrays.toString(matrix));
         // this is what we need here
-        System.out.print("Arrays::deepToString() is what we need here: ");
+        System.out.print("Arrays.deepToString() is what we need here: ");
         System.out.println(Arrays.deepToString(matrix));
     }
 }
