@@ -3,7 +3,7 @@
  * 
  * https://github.com/egalli64/jaba
  */
-package com.example.jaba.m4.s6;
+package com.example.jaba.m4.s7;
 
 /**
  * Bitwise operators
